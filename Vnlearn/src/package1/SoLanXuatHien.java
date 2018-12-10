@@ -30,6 +30,7 @@ public class SoLanXuatHien {
         for (int i = 0; i < n; i++) {
             System.out.printf("a[%d] = ", i);
             arr[i] = scanner.nextInt();
+            //fgyfgy
         }
       
        
