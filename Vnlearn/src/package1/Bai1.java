@@ -8,7 +8,7 @@ public class Bai1 {
 	 * Create date: 10 thg 12, 2018
 	 * Modifier: vancuong
 	 * Modified date: 10 thg 12, 2018
-	 * Description: ....
+	 * Description: đổi độ C sang độ F
 	 * Version 1.0
 	 * @param celsius
 	 * @return
@@ -29,16 +29,8 @@ public class Bai1 {
 	public static void main(String[] args) {
 		 double celsius; 
 		    Scanner scanner = new Scanner(System.in);
-		         
-		    System.out.println("Nhập vào độ Celcius cần đổi: ");
+		    System.out.println("chương Trình đổi độ C sang độ F");
 		    celsius = scanner.nextDouble();
-		 
-		   
 		    System.out.println(celsius + " độ C = " + fah(celsius) + " độ F");
-		
-		
 	}
-	
-	
-
 }
